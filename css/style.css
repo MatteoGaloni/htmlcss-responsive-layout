@@ -11,13 +11,39 @@
 
 body {
     font-family: 'Nunito Sans', sans-serif;
-    color: #b8c1ec;
-    background: #232946;
+    background: pink;
+}
+
+img {
+    height: 100%;
+}
+
+/* ********  */
+/* Helepers */
+
+.flex {
+    display: flex;
+}
+
+.spcBtw {
+    justify-content: space-between;
+}
+
+.alignItCenter {
+    align-items: center;
 }
 
 
+/* ***Header*** */
 
+header {
+    height: 60px;
+    background-color: lightblue;
+}
 
-div {
-    color: red;
+nav {
+    max-width: 900px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 2rem;
 }
