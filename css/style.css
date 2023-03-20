@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 body {
@@ -55,6 +56,7 @@ img {
 
 /* ***Header*** */
 
+
 header {
     height: 60px;
     background-color: lightblue;
@@ -67,6 +69,11 @@ nav {
 
 /* ***main*** */
 
+/* demo apllication */
+
+.demoApplication .boxed {
+    background-color: blue;
+}
 
 .col {
     padding: 1rem;
@@ -80,8 +87,13 @@ nav {
     border-radius: 25px;
 }
 
+/* strategic planning section */
 
+.strategicPlanning .boxed {
+    background-color: lightgray;
+}
 
+/* < !-- Testimonials --> */
 
 
 /************************************************
@@ -122,6 +134,11 @@ nav {
 
     }
 
+    .col50 {
+        width: calc(100%/2);
+
+    }
+
     .col66 {
         width: calc(100%/3*2);
     }
@@ -149,6 +166,11 @@ nav {
 
     .Hamburger4Mobile {
         display: none;
+    }
+
+    .col50 {
+        width: calc(100%/2);
+
     }
 
     .col66 {
