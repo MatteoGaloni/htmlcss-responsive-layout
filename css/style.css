@@ -47,3 +47,37 @@ nav {
     height: 100%;
     padding: 0 2rem;
 }
+
+
+
+/************************************************
+    SOLUZIONE RESPONSIVE
+ ************************************************/
+
+
+/* mobile layout */
+
+@media screen and (max-width: 480px) {
+    .topBar {
+        width: 100%;
+        background-color: green;
+    }
+
+    .linkTopRight {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+    .Hamburger4Mobile {
+        display: none;
+    }
+
+
+
+
+
+}
