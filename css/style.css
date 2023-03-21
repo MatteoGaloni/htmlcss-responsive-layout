@@ -34,12 +34,7 @@ img {
     width: 100%;
 }
 
-.card {
-    min-height: 100px;
-    background-color: beige;
-    border-radius: 25px;
-    padding: 1rem;
-}
+
 
 /* ********  */
 /* Helpers */
@@ -88,6 +83,7 @@ nav {
     padding: 0 2rem;
 }
 
+
 .fa-solid {
     color: white;
 }
@@ -108,7 +104,29 @@ a button {
 /* demo application */
 
 .demoApplication .boxed {
-    background-color: blue;
+    background-color: white;
+}
+
+.card {
+    min-height: 100px;
+    background-color: #b5ddff;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+#appleButton {
+    padding: 0.5rem 2rem;
+    color: white;
+    background-color: #0084fd;
+    width: 80%;
+}
+
+.fa-apple {
+    margin-right: 0.5rem;
+}
+
+.card>div {
+    line-height: 1.5;
 }
 
 
