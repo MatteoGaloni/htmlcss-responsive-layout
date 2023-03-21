@@ -10,9 +10,12 @@
     /* text-align: center; */
 }
 
+
+
 body {
     font-family: 'Nunito Sans', sans-serif;
     background: pink;
+    line-height: 1.5;
 }
 
 section {
@@ -32,6 +35,7 @@ section {
 
 img {
     width: 100%;
+    display: block;
 }
 
 
@@ -65,9 +69,16 @@ img {
     align-items: center;
 }
 
+.marginB {
+    margin-bottom: 2rem;
+}
 
 .gap {
-    gap: 1rem;
+    gap: 2rem;
+}
+
+.textAlignCenter {
+    text-align: center;
 }
 
 /* ***Header*** */
@@ -108,10 +119,14 @@ a button {
 }
 
 .card {
-    min-height: 100px;
-    background-color: #b5ddff;
+    height: 100%;
     border-radius: 25px;
-    padding: 1rem;
+    padding: 2rem;
+}
+
+.bgColorLightblue {
+    background-color: #b5ddff;
+
 }
 
 #appleButton {
@@ -125,9 +140,19 @@ a button {
     margin-right: 0.5rem;
 }
 
+.fa-solid {
+    color: #0084fd;
+    width: 100%;
+}
+
 .card>div {
     line-height: 1.5;
 }
+
+.fa-file {
+    font-size: 6rem;
+}
+
 
 
 
@@ -135,7 +160,7 @@ a button {
 /* strategic planning section */
 
 .strategicPlanning .boxed {
-    background-color: lightgray;
+    background-color: #9792e4;
 }
 
 /* < !-- Testimonials --> */
