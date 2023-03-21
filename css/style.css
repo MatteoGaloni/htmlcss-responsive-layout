@@ -7,12 +7,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
+    /* text-align: center; */
 }
 
 body {
     font-family: 'Nunito Sans', sans-serif;
     background: pink;
+}
+
+section {
+    margin: 1rem 0;
 }
 
 .boxed {
@@ -21,12 +25,24 @@ body {
 
 }
 
+.col {
+    padding: 1rem;
+    width: 100%;
+}
+
 img {
-    height: 100%;
+    width: 100%;
+}
+
+.card {
+    min-height: 100px;
+    background-color: beige;
+    border-radius: 25px;
+    padding: 1rem;
 }
 
 /* ********  */
-/* Helepers */
+/* Helpers */
 
 .flex {
     display: flex;
@@ -54,38 +70,49 @@ img {
     align-items: center;
 }
 
+
+.gap {
+    gap: 1rem;
+}
+
 /* ***Header*** */
 
 
 header {
     height: 60px;
-    background-color: lightblue;
+    background-color: #0084fd;
 }
 
 nav {
     height: 100%;
-    /* padding: 0 2rem; */
+    padding: 0 2rem;
+}
+
+.fa-solid {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a button {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
 }
 
 /* ***main*** */
 
-/* demo apllication */
+/* demo application */
 
 .demoApplication .boxed {
     background-color: blue;
 }
 
-.col {
-    padding: 1rem;
-    width: 100%;
-}
 
 
-.card {
-    min-height: 100px;
-    background-color: beige;
-    border-radius: 25px;
-}
 
 /* strategic planning section */
 
@@ -95,22 +122,44 @@ nav {
 
 /* < !-- Testimonials --> */
 
+.testimonials .boxed {
+    background-color: rgb(29, 49, 74);
+}
+
+/* Benefit Section */
+
+.benefit .boxed {
+    background-color: rgb(148, 186, 232);
+}
+
+
+/* About us section */
+.aboutUs .boxed {
+    background-color: rgb(207, 177, 28);
+}
+
+/* get Started section */
+.getStarted .boxed {
+    background-color: rgb(207, 123, 28);
+}
+
+/* footer */
+footer {
+    background-color: darksalmon;
+    min-height: 300px;
+}
 
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
 
 
-/* mobile layout */
+/* mobile First layout */
 
 @media screen and (max-width: 480px) {
 
     body {
         background-color: green;
-    }
-
-    .topBar {
-        width: 100%;
     }
 
     .linkTopRight {
@@ -129,10 +178,10 @@ nav {
         background-color: red;
     }
 
-    .Hamburger4Mobile {
+    .linkTopRight {
         display: none;
-
     }
+
 
     .col50 {
         width: calc(100%/2);
@@ -168,6 +217,10 @@ nav {
         display: none;
     }
 
+    .card {
+        display: flex;
+    }
+
     .col50 {
         width: calc(100%/2);
 
@@ -185,6 +238,8 @@ nav {
         flex-direction: row;
     }
 
-
+    img {
+        width: 50%;
+    }
 
 }
