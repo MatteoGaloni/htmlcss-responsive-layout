@@ -73,6 +73,10 @@ img {
     margin-bottom: 2rem;
 }
 
+.padding2rem {
+    padding: 2rem;
+}
+
 .gap {
     gap: 2rem;
 }
@@ -172,11 +176,26 @@ a button {
     color: white;
 }
 
+/* }.arrowDown {
+    text */
+
+
 /* < !-- Testimonials --> */
 
 .testimonials .boxed {
-    background-color: rgb(29, 49, 74);
+    background-color: white;
 }
+
+.testimonialsImg {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.bgColorLilla {
+    background-color: #9792e4;
+}
+
+
 
 /* Benefit Section */
 
@@ -238,6 +257,7 @@ footer {
     .col50 {
         width: calc(100%/2);
 
+
     }
 
     .col66 {
@@ -251,10 +271,6 @@ footer {
     .row {
         flex-direction: row;
     }
-
-
-
-
 }
 
 /* desktop layout */
