@@ -163,6 +163,15 @@ a button {
     background-color: #9792e4;
 }
 
+.bgColorWhite {
+    background-color: white;
+}
+
+
+.textColorWhite {
+    color: white;
+}
+
 /* < !-- Testimonials --> */
 
 .testimonials .boxed {
