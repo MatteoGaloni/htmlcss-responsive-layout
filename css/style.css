@@ -23,7 +23,7 @@ section {
 }
 
 .boxed {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 
 }
@@ -201,6 +201,13 @@ a button {
 
 .benefit .boxed {
     background-color: rgb(148, 186, 232);
+}
+
+.moreButton {
+    padding: 0.5rem 2rem;
+    color: white;
+    background-color: #0084fd;
+
 }
 
 
